@@ -17,7 +17,7 @@ const About = ({ main }) => {
           <img
             className='profile-pic'
             src={`images/${image}`}
-            alt='Tim Baker Profile Pic'
+            alt='My Profile Pic'
           />
         </div>
         <div className='nine columns main-col'>

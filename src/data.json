@@ -78,29 +78,39 @@
     "portfolio": {
       "projects": [
         {
+          "title": "ProShop",
+          "desc": "This is a shopping app made using MERN and redux, having all the main functionality of an e-commerce website.",
+          "image": "proShop.png",
+          "url": "https://me-proshop.herokuapp.com/",
+          "code": "https://github.com/nawazibrat/shopping-app"
+        },
+        {
+          "title": "GitHub Finder",
+          "desc": "Search Github users, made using React hooks & context",
+          "image": "github-finder.png",
+          "url": "https://nawaz-github-finder.netlify.app/",
+          "code": "https://github.com/nawazibrat/GitHub-Finder"
+        },
+        {
+          "title": "My Portfolio",
+          "desc": "This is my first portfolio made using React to showcase my works.",
+          "image": "portfolio.png",
+          "url": "https://nawaz-portfolio.netlify.app/",
+          "code": "https://github.com/nawazibrat/my-react-portfolio"
+        },
+        {
+          "title": "URL Shortener",
+          "desc": "It is small application made using HTML/CSS/JS and Node/Express for API. Using this app you can create generate short url for any big url",
+          "image": "url-shortener.png",
+          "url": "https://ui-short-url.netlify.app/index.html",
+          "code": "https://github.com/nawazibrat/Guvi-Zen/tree/master/Day-33-Task"
+        },
+        {
           "title": "Amazon Clone",
           "desc": "Amazon Clone built with MERN (MongoDB, ExpressJS, ReactJS, NodeJS) Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo repudiandae nam dolore cupiditate totam dolorum, odio suscipit ducimus! Fuga est enim quaerat earum nostrum saepe dignissimos, voluptatem voluptatum tenetur distinctio!",
           "image": "amazon-clone.png",
-          "url": "https://www.amazon.in",
-          "code": "https://github.com/nawazibrat"
-        },
-        {
-          "title": "Facebook Clone with React",
-          "desc": "Facebook Clone built with ReactJS",
-          "image": "facebook-clone.png",
-          "url": "#"
-        },
-        {
-          "title": "Airbnb Clone",
-          "desc": "Airbnb Clone built with ReactJS",
-          "image": "airbnb-clone.jpeg",
-          "url": "#"
-        },
-        {
-          "title": "Netflix Clone",
-          "desc": "Netflix Clone built with ReactJS",
-          "image": "netflix-clone.jpeg",
-          "url": "#"
+          "url": "",
+          "code": "https://github.com/nawazibrat/amazon-clone"
         }
       ]
     }
