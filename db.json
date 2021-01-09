@@ -1,0 +1,108 @@
+{
+  "data": {
+    "main": {
+      "name": "Ibrat Nawaz",
+      "occupation": "PHP Web Developer",
+      "description": "Full Stack Web Developer with 6+ Months Experience in Frontend/Backend Development",
+      "image": "nawaz_image.jpg",
+      "bio": "My name is Ibrat Nawaz, I'm currently a Full Stack PHP Developer. Now I'm moving to Full Stack ReactJS Development since many MNC are using ReactJs for their software development",
+      "contactMessage": "Get in touch with me to receive further details, get coached or anything else.",
+      "email": "nawazmd0096@gmail.com",
+      "phone": "+91 9380 786 454",
+      "address": {
+        "street": "Kormangla",
+        "city": "Bangalore,",
+        "state": "Karnataka, India",
+        "zip": "560034"
+      },
+      "website": "",
+      "resumeDownload": "images/my_resume.pdf",
+      "social": [
+        {
+          "name": "linkedin",
+          "url": "https://www.linkedin.com/in/ibrat-nawaz-08b677183",
+          "className": "fa fa-linkedin"
+        },
+        {
+          "name": "github",
+          "url": "https://github.com/nawazibrat",
+          "className": "fa fa-github"
+        }
+      ]
+    },
+    "resume": {
+      "skillMessage": "My skills",
+      "education": [
+        {
+          "school": "Nagarjuna College of Engineering and Technology",
+          "degree": "Bachelor in Computer Science Engineering",
+          "graduated": "July 2020",
+          "description": "Graduated with Distinction - CGPA 8.65/10"
+        }
+      ],
+      "work": [
+        {
+          "company": "Trikara Technologies Private Limited",
+          "title": "Full Stack PHP Developer",
+          "years": "Jun 2020 - Sep 2020",
+          "description": "Building web applications solo."
+        }
+      ],
+      "skills": [
+        {
+          "name": "HTML/CSS",
+          "level": "80%"
+        },
+        {
+          "name": "Javascript",
+          "level": "80%"
+        },
+        {
+          "name": "Bootstrap",
+          "level": "80%"
+        },
+        {
+          "name": "REACT",
+          "level": "70%"
+        },
+        {
+          "name": "Node/Express",
+          "level": "80%"
+        },
+        {
+          "name": "MongoDB",
+          "level": "70%"
+        }
+      ]
+    },
+    "portfolio": {
+      "projects": [
+        {
+          "title": "Amazon Clone",
+          "desc": "Amazon Clone built with MERN (MongoDB, ExpressJS, ReactJS, NodeJS) Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo repudiandae nam dolore cupiditate totam dolorum, odio suscipit ducimus! Fuga est enim quaerat earum nostrum saepe dignissimos, voluptatem voluptatum tenetur distinctio!",
+          "image": "amazon-clone.png",
+          "url": "https://www.amazon.in",
+          "code": "https://github.com/nawazibrat"
+        },
+        {
+          "title": "Facebook Clone with React",
+          "desc": "Facebook Clone built with ReactJS",
+          "image": "facebook-clone.png",
+          "url": "#"
+        },
+        {
+          "title": "Airbnb Clone",
+          "desc": "Airbnb Clone built with ReactJS",
+          "image": "airbnb-clone.jpeg",
+          "url": "#"
+        },
+        {
+          "title": "Netflix Clone",
+          "desc": "Netflix Clone built with ReactJS",
+          "image": "netflix-clone.jpeg",
+          "url": "#"
+        }
+      ]
+    }
+  }
+}
