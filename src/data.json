@@ -106,8 +106,15 @@
           "code": "https://github.com/nawazibrat/Guvi-Zen/tree/master/Day-33-Task"
         },
         {
+          "title": "M-Drive",
+          "desc": "M-drive app is built with MERN (MongoDB, ExpressJS, ReactJS, NodeJS) and AWS S3. User can create their account and store their files/folder to the AWS S3 bucket.",
+          "image": "m-drive.png",
+          "url": "https://m-drive-ui.herokuapp.com/",
+          "code": "https://github.com/nawazibrat/M-Drive"
+        },
+        {
           "title": "Amazon Clone",
-          "desc": "Amazon Clone built with MERN (MongoDB, ExpressJS, ReactJS, NodeJS) Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo repudiandae nam dolore cupiditate totam dolorum, odio suscipit ducimus! Fuga est enim quaerat earum nostrum saepe dignissimos, voluptatem voluptatum tenetur distinctio!",
+          "desc": "Amazon Clone built with MERN (MongoDB, ExpressJS, ReactJS, NodeJS)",
           "image": "amazon-clone.png",
           "url": "",
           "code": "https://github.com/nawazibrat/amazon-clone"
