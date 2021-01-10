@@ -23,6 +23,9 @@
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
 
+    <script src="js/jquery-1.10.2.min.js"></script>
+    <script src="js/jquery-nav.js"></script>
+
     <script>
       setTimeout(() => {
         console.log('component loaded')
@@ -44,6 +47,10 @@
             navbar.style.top = '-80px'
             navbar.style.display = 'block'
           }
+        })
+        $('#nav').onePageNav({
+          currentClass: 'current',
+          changeHash: false,
         })
       }, 2500)
     </script>
