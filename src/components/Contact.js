@@ -61,7 +61,9 @@ const Contact = ({ main }) => {
               </div> */}
 
               <div>
-                <label htmlFor='contactSubject'>Subject</label>
+                <label htmlFor='contactSubject'>
+                  Subject <span className='required'>*</span>
+                </label>
                 <input
                   value={subject}
                   type='text'
@@ -91,18 +93,16 @@ const Contact = ({ main }) => {
                 <button type='submit' className='submit'>
                   Submit
                 </button>
-                <span id='image-loader'>
-                  <img alt='' src='images/loader.gif' />
-                </span>
               </div>
             </fieldset>
           </form>
-
-          <div id='message-warning'> Error boy</div>
-          <div id='message-success'>
-            <i className='fa fa-check'></i>Your message was sent, thank you!
-            <br />
-          </div>
+          {/* <>
+            <div id='message-warning'> Something went wrong!</div>
+            <div id='message-success'>
+              <i className='fa fa-check'></i>Your message was sent, thank you!
+              <br />
+            </div>
+          </> */}
         </div>
 
         <aside className='four columns footer-widgets'>
@@ -112,7 +112,8 @@ const Contact = ({ main }) => {
               {main.name}
               <br />
               {main.address.street} <br />
-              {main.address.city}, {main.address.state} {main.address.zip}
+              {main.address.city}, {main.address.state}, {main.address.country}{' '}
+              {main.address.zip}
               <br />
               <span>{main.phone}</span>
             </p>

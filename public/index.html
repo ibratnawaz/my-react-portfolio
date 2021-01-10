@@ -10,10 +10,10 @@
     />
     <meta name="theme-color" content="#000000" />
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
     <link rel="stylesheet" href="%PUBLIC_URL%/css/default.css" />
-    <link rel="stylesheet" href="%PUBLIC_URL%/css/layout.css" />
+    <link rel="stylesheet" href="%PUBLIC_URL%/css/style.css" />
     <link rel="stylesheet" href="%PUBLIC_URL%/css/media-queries.css" />
-    <link rel="stylesheet" href="%PUBLIC_URL%/css/magnific-popup.css" />
 
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
 
@@ -23,20 +23,29 @@
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script>
-      window.jQuery ||
-        document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')
-    </script>
-    <script
-      type="text/javascript"
-      src="js/jquery-migrate-1.2.1.min.js"
-    ></script>
+      setTimeout(() => {
+        console.log('component loaded')
+        var navbar = document.getElementById('nav-wrap')
+        var home = document.getElementById('home')
+        var portfolio = document.getElementById('portfolio')
+        var resume = document.getElementById('resume')
+        var contact = document.getElementById('contact')
 
-    <script src="js/jquery.flexslider.js"></script>
-    <script src="js/waypoints.js"></script>
-    <script src="js/jquery.fittext.js"></script>
-    <script src="js/magnific-popup.js"></script>
-    <script src="js/init.js"></script>
+        var screenHeight = window.innerHeight
+        window.addEventListener('scroll', function () {
+          var scrollTop = window.pageYOffset
+          if (scrollTop >= screenHeight) {
+            navbar.style.top = '0'
+            if (scrollTop == 0) {
+              navbar.style.display = 'block'
+            }
+          } else {
+            navbar.style.top = '-80px'
+            navbar.style.display = 'block'
+          }
+        })
+      }, 2500)
+    </script>
   </body>
 </html>

@@ -1,11 +1,4 @@
 /*
-=====================================================================
-*   Ceevee v1.0 Default Stylesheet
-*   url: styleshout.com
-*   03-17-2014
-=====================================================================
-
-TOC:
 a. Webfonts and Icon fonts
 b. Reset
 c. Default Styles
@@ -1028,7 +1021,7 @@ properly.
     width: 25%;
   }
   .s-bgrid-thirds [class*='column'] {
-    width: 33.33333%;
+    width: 49.33333%;
   }
   .s-bgrid-halves [class*='column'] {
     width: 50%;
@@ -1047,7 +1040,7 @@ properly.
 --------------------------------------------------------------- */
 @media only screen and (max-width: 767px) {
   .row {
-    width: 460px;
+    width: 80%;
     margin: 0 auto;
     padding: 0;
   }

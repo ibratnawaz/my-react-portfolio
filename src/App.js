@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react'
 import Header from './components/Header'
-import About from './components/About'
 import Portfolio from './components/Portfolio'
 import Resume from './components/Resume'
 import Contact from './components/Contact'
@@ -25,7 +24,7 @@ function App() {
       ) : (
         <>
           <Header main={resumeData.main} />
-          <About main={resumeData.main} />
+          {/* <About main={resumeData.main} /> */}
           <Portfolio portfolio={resumeData.portfolio} />
           <Resume resume={resumeData.resume} />
           <Contact main={resumeData.main} />

@@ -2,17 +2,17 @@
   "data": {
     "main": {
       "name": "Ibrat Nawaz",
-      "occupation": "PHP Web Developer",
-      "description": "Full Stack Web Developer with 6+ Months Experience in Frontend/Backend Development",
+      "occupation": "MERN Stack Developer",
+      "description": "Hire me and let's build some amazing stuff.",
       "image": "nawaz_image.jpg",
-      "bio": "My name is Ibrat Nawaz, I'm currently a Full Stack PHP Developer. Now I'm moving to Full Stack ReactJS Development since many MNC are using ReactJs for their software development",
       "contactMessage": "Get in touch with me to receive further details, get coached or anything else.",
       "email": "nawazmd0096@gmail.com",
       "phone": "+91 9380 786 454",
       "address": {
         "street": "Kormangla",
-        "city": "Bangalore,",
-        "state": "Karnataka, India",
+        "city": "Bangalore",
+        "state": "Karnataka",
+        "country": "India",
         "zip": "560034"
       },
       "website": "",
@@ -32,7 +32,7 @@
     },
     "resume": {
       "skillMessage": "My skills",
-      "education": [
+      "educations": [
         {
           "school": "Nagarjuna College of Engineering and Technology",
           "degree": "Bachelor in Computer Science Engineering",
@@ -40,7 +40,7 @@
           "description": "Graduated with Distinction - CGPA 8.65/10"
         }
       ],
-      "work": [
+      "works": [
         {
           "company": "Trikara Technologies Private Limited",
           "title": "Full Stack PHP Developer",

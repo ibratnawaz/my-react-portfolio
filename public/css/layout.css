@@ -1,10 +1,4 @@
 /*
-=====================================================================
-*   Ceevee v1.0 Layout Stylesheet
-*   url: styleshout.com
-*   03-18-2014
-=====================================================================
-
    TOC:
    a. General Styles
    b. Header Styles
@@ -35,7 +29,7 @@ header {
   height: 800px;
   min-height: 500px;
   width: 100%;
-  background: #161415 url(../images/header-background.jpg) no-repeat top center;
+  background: #161415 url(../images/bg-img.jpg) no-repeat top center;
   background-size: cover !important;
   -webkit-background-size: cover !important;
   text-align: center;
@@ -138,6 +132,9 @@ header .scrolldown a:hover {
   padding: 0;
   border: none;
   outline: none;
+}
+#nav-wrap ul {
+  background: rgba(0, 0, 0, 0.2);
 }
 
 /* nav-wrap */
