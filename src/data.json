@@ -92,6 +92,13 @@
           "code": "https://github.com/nawazibrat/GitHub-Finder"
         },
         {
+          "title": "COVID-19 Tracker",
+          "desc": "Track covid-19 cases across the world and analyse the data with the help of graphs.",
+          "image": "covid.png",
+          "url": "https://all-covid-19-tracker.netlify.app/",
+          "code": "https://github.com/nawazibrat/covid-19-tracker"
+        },
+        {
           "title": "My Portfolio",
           "desc": "This is my first portfolio made using React to showcase my works.",
           "image": "portfolio.png",
