@@ -85,6 +85,13 @@
           "code": "https://github.com/nawazibrat/shopping-app"
         },
         {
+          "title": "M-Drive",
+          "desc": "M-drive app is built with MERN (MongoDB, ExpressJS, ReactJS, NodeJS) and AWS S3. User can create their account and store their files/folder to the AWS S3 bucket.",
+          "image": "m-drive.png",
+          "url": "https://m-drive-ui.herokuapp.com/",
+          "code": "https://github.com/nawazibrat/M-Drive"
+        },
+        {
           "title": "GitHub Finder",
           "desc": "Search Github users, made using React hooks & context",
           "image": "github-finder.png",
@@ -113,17 +120,24 @@
           "code": "https://github.com/nawazibrat/Guvi-Zen/tree/master/Day-33-Task"
         },
         {
-          "title": "M-Drive",
-          "desc": "M-drive app is built with MERN (MongoDB, ExpressJS, ReactJS, NodeJS) and AWS S3. User can create their account and store their files/folder to the AWS S3 bucket.",
-          "image": "m-drive.png",
-          "url": "https://m-drive-ui.herokuapp.com/",
-          "code": "https://github.com/nawazibrat/M-Drive"
+          "title": "Gmail Clone",
+          "desc": "Gmail Clone is a Javascript Web application, made using GMAIL API service, where the user can compose or check their emails.",
+          "image": "gmail-clone.png",
+          "url": "https://nawaz-gmail-clone.netlify.app/",
+          "code": "https://github.com/nawazibrat/Gmail-Clone"
+        },
+        {
+          "title": "Recipe Finder",
+          "desc": "Recipe Finder is a Javascript Web application, where the user can look & search for their favourite recipes",
+          "image": "food-search.png",
+          "url": "https://free-food-search.netlify.app/",
+          "code": "https://github.com/nawazibrat/Guvi-Zen/tree/master/Day-16%20Task"
         },
         {
           "title": "Amazon Clone",
-          "desc": "Amazon Clone built with MERN (MongoDB, ExpressJS, ReactJS, NodeJS)",
+          "desc": "My first react app, Amazon Clone, made it to understand the basics of react",
           "image": "amazon-clone.png",
-          "url": "",
+          "url": "https://clone-amazon-a0264d.netlify.app/",
           "code": "https://github.com/nawazibrat/amazon-clone"
         }
       ]
