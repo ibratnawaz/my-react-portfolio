@@ -16,7 +16,7 @@
         "zip": "560034"
       },
       "website": "",
-      "resumeDownload": "images/my_resume.pdf",
+      "resumeDownload": "https://drive.google.com/file/d/18l7yM42sVWPq_6rvnoVELHUhPgwRjxNK/view?usp=sharing",
       "social": [
         {
           "name": "linkedin",
@@ -92,6 +92,20 @@
           "code": "https://github.com/nawazibrat/M-Drive"
         },
         {
+          "title": "My Chat App",
+          "desc": "This is a simple chatting application made using node, react, and socket.io. This app I made it to understand the flow of socket.io",
+          "image": "chat-app.png",
+          "url": "https://nawaz-chat-app.netlify.app/",
+          "code": "https://github.com/nawazibrat/chat-app"
+        },
+        {
+          "title": "URL Shortener",
+          "desc": "It is small application made using HTML/CSS/JS and Node/Express for API. Using this app you can create generate short url for any big url",
+          "image": "url-shortener.png",
+          "url": "https://ui-short-url.netlify.app/index.html",
+          "code": "https://github.com/nawazibrat/Guvi-Zen/tree/master/Day-33-Task"
+        },
+        {
           "title": "GitHub Finder",
           "desc": "Search Github users, made using React hooks & context",
           "image": "github-finder.png",
@@ -104,20 +118,6 @@
           "image": "covid.png",
           "url": "https://all-covid-19-tracker.netlify.app/",
           "code": "https://github.com/nawazibrat/covid-19-tracker"
-        },
-        {
-          "title": "My Portfolio",
-          "desc": "This is my first portfolio made using React to showcase my works.",
-          "image": "portfolio.png",
-          "url": "https://nawaz-portfolio.netlify.app/",
-          "code": "https://github.com/nawazibrat/my-react-portfolio"
-        },
-        {
-          "title": "URL Shortener",
-          "desc": "It is small application made using HTML/CSS/JS and Node/Express for API. Using this app you can create generate short url for any big url",
-          "image": "url-shortener.png",
-          "url": "https://ui-short-url.netlify.app/index.html",
-          "code": "https://github.com/nawazibrat/Guvi-Zen/tree/master/Day-33-Task"
         },
         {
           "title": "Gmail Clone",
@@ -135,7 +135,7 @@
         },
         {
           "title": "Amazon Clone",
-          "desc": "My first react app, Amazon Clone, made it to understand the basics of react",
+          "desc": "My first react app, Amazon Clone, made it using React and Firebase, to understand the basics of react",
           "image": "amazon-clone.png",
           "url": "https://clone-amazon-a0264d.netlify.app/",
           "code": "https://github.com/nawazibrat/amazon-clone"

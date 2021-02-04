@@ -44,7 +44,7 @@ const Header = ({ main }) => {
             target='_blank'
             rel='noreferrer'
             className='button'>
-            <i className='fa fa-download'></i> Download Resume
+            <i className='fa fa-file'></i> View Resume
           </a>
         </p>
       </div>
