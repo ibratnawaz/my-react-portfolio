@@ -88,7 +88,7 @@
           "title": "M-Drive",
           "desc": "M-drive app is built with MERN (MongoDB, ExpressJS, ReactJS, NodeJS) and AWS S3. User can create their account and store their files/folder to the AWS S3 bucket.",
           "image": "m-drive.png",
-          "url": "https://m-drive-ui.herokuapp.com/",
+          "url": "https://m-drive.netlify.app/",
           "code": "https://github.com/nawazibrat/M-Drive"
         },
         {
